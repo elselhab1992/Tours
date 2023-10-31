@@ -1,0 +1,42 @@
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(48, 48, 48);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-contact a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.social-icon {
+  margin: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+.copyrights {
+  color: white;
+}
+
+@media (min-width: 375px) {
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

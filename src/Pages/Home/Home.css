@@ -1,0 +1,162 @@
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+
+.main-content {
+  text-align: center;
+  color: black;
+  line-height: 1;
+  position: relative;
+}
+
+.desktop-img img {
+  width: 100%;
+  height: 100vh;
+}
+
+.mobile-img {
+  display: none;
+}
+.main-text {
+  color: rgb(97, 93, 93);
+  position: absolute;
+  top: 100px;
+  left: 500px;
+}
+
+.main-text h1 {
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+.main-text p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.main-content button {
+  width: 200px;
+  padding: 10px;
+  background-color: rgb(97, 93, 93);
+  color: white;
+  font-size: 30px;
+  border: 1px solid rgb(97, 93, 93);
+  transition: 0.5s;
+}
+
+.main-content button:hover {
+  background-color: white;
+  color: rgb(97, 93, 93);
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+@media (min-width: 375px) {
+  .desktop-img img {
+    display: none;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+
+  .mobile-img img {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .main-text {
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 15px;
+  }
+
+  .main-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .main-text p {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .main-content button {
+    background-color: rgb(48, 48, 48);
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 15px;
+  }
+
+  .main-content button:hover {
+    color: black;
+  }
+}
+
+@media (min-width: 500px) {
+  .main-text {
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .desktop-img img {
+    display: block;
+  }
+
+  .mobile-img {
+    display: none;
+  }
+
+  .mobile-img img {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .main-text {
+    color: rgb(97, 93, 93);
+    position: absolute;
+    top: 120px;
+    left: 100px;
+  }
+
+  .main-text h1 {
+    font-size: 70px;
+    font-weight: bolder;
+  }
+
+  .main-text p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .main-content button {
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(97, 93, 93);
+    color: white;
+    font-size: 30px;
+    border: 1px solid rgb(97, 93, 93);
+    transition: 0.5s;
+  }
+
+  .main-content button:hover {
+    background-color: white;
+    color: rgb(97, 93, 93);
+    border: 1px solid white;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 960px) {
+  .main-text {
+    color: rgb(97, 93, 93);
+    position: absolute;
+    top: 75px;
+    left: 200px;
+  }
+}

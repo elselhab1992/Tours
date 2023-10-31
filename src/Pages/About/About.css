@@ -1,0 +1,32 @@
+@media (min-width: 375px) {
+  .about-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .about-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-text {
+    width: 90%;
+    padding: 10px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-section {
+    margin: auto;
+  }
+  .about-section img {
+    width: 100%;
+    height: 80%;
+  }
+}
